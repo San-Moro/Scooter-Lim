@@ -1,0 +1,94 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 65%;
+  height: 85%;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  border-radius: 25px;
+}
+/* start css header */
+.logo {
+  width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.text-logo {
+  color: #00dd00;
+  font-size: 30px;
+  text-align: center;
+}
+/* end css header */
+
+/* start css nav */
+.line {
+  background-color: #00dd00;
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+/* end css nav */
+
+/* start css main */
+main {
+  width: 1000px;
+  margin: auto;
+}
+.monopattino {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+}
+div p {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.battery1 {
+  background-color: #f5b453;
+  width: 35%;
+  height: 33px;
+  border-radius: 5px;
+}
+.battery2 {
+  background-color: #1ec31e;
+  width: 65%;
+  height: 33px;
+  border-radius: 5px;
+}
+.battery3 {
+  background-color: #be4141;
+  width: 15%;
+  height: 33px;
+  border-radius: 5px;
+}
+/* end css main */
